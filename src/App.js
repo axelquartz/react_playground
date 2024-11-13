@@ -1,12 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { render } from "@testing-library/react";
-// import Nav from "./components/Nav";
-import { Nav } from "./components/Nav";
-
-function Heading() {
-  return <h1>This is an h1 heading</h1>;
-}
+import Nav from "./components/Nav";
+import Main from "./components/Main";
 
 function Body() {
   return <h2>This is a body element</h2>;
@@ -15,8 +11,8 @@ function Body() {
 function App() {
   return (
     <div>
-      <Nav />
-      <Heading />
+      <Nav name="Axel" color="blue" />
+      <Main character="Guy" />
     </div>
   );
 }

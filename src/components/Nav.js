@@ -1,10 +1,11 @@
-function Nav() {
+function Nav(props) {
   return (
-    <div>
-      <h1>THIS IS A NAV</h1>
+    <div className="nav">
+      <h1>This is a sweet Nav</h1>
+      <h2>Name: {props.name}</h2> <h2>Color: {props.color}</h2>
     </div>
   );
 }
 
 // export default Nav;
-export { Nav };
+export default Nav;
