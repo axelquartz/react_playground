@@ -3,6 +3,7 @@ import "./App.css";
 import { render } from "@testing-library/react";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
+import Card from "./components/Card";
 
 function Body() {
   return <h2>This is a body element</h2>;
@@ -11,8 +12,15 @@ function Body() {
 function App() {
   return (
     <div>
-      <Nav name="Axel" color="blue" />
-      <Main character="Guy" />
+      <Card>
+        <Nav name="Axel" color="blue" />
+      </Card>
+      <Card>
+        <Body />
+      </Card>
+      <Card>
+        <Main character="Guy" />
+      </Card>
     </div>
   );
 }
