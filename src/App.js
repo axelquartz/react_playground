@@ -4,7 +4,8 @@ import { render } from "@testing-library/react";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
 import Card from "./components/Card";
-
+import Logo from "./components/Logo";
+import Footer from "./components/Footer";
 function Body() {
   return <h2>This is a body element</h2>;
 }
@@ -15,12 +16,12 @@ function App() {
       <Card>
         <Nav name="Axel" color="blue" />
       </Card>
-      <Card>
-        <Body />
-      </Card>
+      <Body />
       <Card>
         <Main character="Guy" />
       </Card>
+      <Logo />
+      <Footer h1="Esloro" />
     </div>
   );
 }

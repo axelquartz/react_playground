@@ -62,3 +62,17 @@
   justify-content: center;
   background-color: #2e2834;
 }
+
+.a {
+  background-color: gray;
+}
+
+.b {
+  background-color: blue;
+  text-align: center;
+}
+
+.c {
+  background-color: violet;
+  text-align: center;
+}
