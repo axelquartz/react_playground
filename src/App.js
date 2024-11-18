@@ -6,6 +6,7 @@ import Offer from "./components/Offer";
 import OfferHero from "./components/OfferHero";
 
 function App() {
+  const date = new Date().toLocaleTimeString();
   return (
     <div>
       <Offer />

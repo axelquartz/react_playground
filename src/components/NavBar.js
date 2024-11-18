@@ -1,10 +1,6 @@
-function NavBar(props) {
-  return (
-    <div>
-      <h1>{props.navBar1}</h1>
-      <h2>{props.navBar2}</h2>
-    </div>
-  );
+// CHILD
+function NavBar() {
+  return <div></div>;
 }
 
 export default NavBar;
